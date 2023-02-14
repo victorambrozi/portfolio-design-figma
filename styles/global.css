@@ -19,6 +19,10 @@ html {
     font-family: 'Heebo', sans-serif;
 }
 
+body {
+    position: relative;
+}
+
 ul {
     list-style: none;
 }

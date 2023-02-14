@@ -1,0 +1,115 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  display: none;
+}
+.modal-container {
+  padding: 3.2rem;
+  max-width: 700px;
+  background: #ffffff;
+
+  position: relative;
+
+  border-radius: 6px;
+
+  overflow-y: initial !important;
+}
+
+.modal-btn-close {
+  display: block;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+
+  width: 40px;
+  height: 40px;
+  border: 4px solid #fff;
+  border-radius: 6px;
+  background: linear-gradient(360deg, #ff2020 0%, #ff9b9b 130.85%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 1.6rem;
+  color: #fff;
+
+  cursor: pointer;
+}
+
+.modal-content {
+  height: 70vh;
+  overflow-y: auto;
+}
+/* Scrollbar  Edge*/
+.modal-content::-webkit-scrollbar {
+  padding: 0 0.5rem;
+  width: 0.5em;
+}
+.modal-content::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+.modal-content::-webkit-scrollbar-thumb {
+  background: linear-gradient(360deg, #ff2020 0%, #ff9b9b 130.85%);
+
+  outline: 1px solid linear-gradient(360deg, #ff2020 0%, #ff9b9b 130.85%);;
+}
+
+.modal-content-title {
+  width: 100%;
+  max-width: 65%;
+
+  font-size: 3.4rem;
+  line-height: 44px;
+  color: #21243d;
+}
+
+.modal-content-subtitle {
+  margin-top: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.modal-content-subtitle span {
+  padding: 0.2rem 1rem;
+  background: linear-gradient(360deg, #ff2020 0%, #ff9b9b 130.85%);
+
+  font-size: 1.6rem;
+  font-weight: 900;
+  line-height: 28px;
+  color: #fff;
+
+  border-radius: 16px;
+}
+
+.modal-content-subtitle > p {
+  font-size: 2rem;
+  line-height: 30px;
+  color: #21243d;
+}
+
+.modal-content-description {
+  margin: 3.2rem 0;
+  padding-right: 2rem;
+
+  font-size: 1.6rem;
+  line-height: 26px;
+  color: #000;
+}
+
+.modal-content-image {
+    padding-right: 2rem;
+}
