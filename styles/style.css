@@ -1,6 +1,9 @@
 @import "./global.css";
 @import "./modules/header.css";
-@import "./modules/home.css";
-@import "./modules/posts.css";
-@import "./modules/featuredWorks.css";
+@import "./modules/index/home.css";
+@import "./modules/index/posts.css";
+@import "./modules/index/featuredWorks.css";
 @import "./modules/footer.css";
+
+/* BLOG */
+@import "./modules/blog/blog.css"
