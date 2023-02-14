@@ -6,4 +6,7 @@
 @import "./modules/footer.css";
 
 /* BLOG */
-@import "./modules/blog/blog.css"
+@import "./modules/blog/blog.css";
+
+/* SERVICES */
+@import "./modules/services/services.css";
