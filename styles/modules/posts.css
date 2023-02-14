@@ -42,6 +42,8 @@
     padding: 2rem;
     background: #fff;
     color:#21243D;
+
+    min-width: 320px;
 }
 
 .post-cards-item-title {
