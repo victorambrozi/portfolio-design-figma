@@ -6,3 +6,17 @@
 .featured-works-container {
     margin-top: 6.4rem;
 }
+
+.featured-works-item {
+    padding-bottom: 3.2rem;
+    display: flex;
+    gap: 2rem;
+
+    border-bottom: 1px solid #E0E0E0;
+
+    cursor: pointer;
+}
+
+.modal.active {
+    display: flex;
+}

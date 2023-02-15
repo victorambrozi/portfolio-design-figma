@@ -31,14 +31,16 @@
     <header class="header">
       <nav>
         <ul class="header-navigation">
-          <li class="header-navigation__item"><a href="/services">Serviços</a></li>
+          <li class="header-navigation__item">
+            <a href="/services">Serviços</a>
+          </li>
           <li class="header-navigation__item"><a href="/blog">Blog</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="featured-works">
-        <h2 class="featured-works-title">Projetos</h2>
+        <h2 class="featured-works-title">Destaques</h2>
 
         <div class="featured-works-container">
           <div class="featured-works-item">
@@ -66,6 +68,7 @@
             <div>
               <img src="./assets/retrato.svg" alt="Foto do projeto" />
             </div>
+
             <div>
               <h3 class="featured-works-item-title">
                 Retrato Vibrante de 2020
@@ -127,10 +130,10 @@
     </footer>
 
     <!-- MODAL -->
-    <section class="modal">
+    <section class="modal" data-modal="container">
       <div class="modal-container">
-        <span class="modal-btn-close"> X </span>
-  
+        <span data-modal="close" class="modal-btn-close"> X </span>
+
         <div class="modal-content">
           <h2 class="modal-content-title">
             Projetando painéis com usabilidade em mente
@@ -141,12 +144,13 @@
           </div>
           <p class="modal-content-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            ratione porro facere minus minima quaerat aperiam explicabo ex impedit
-            dolorum iste, deserunt temporibus voluptate delectus tempora.
+            ratione porro facere minus minima quaerat aperiam explicabo ex
+            impedit dolorum iste, deserunt temporibus voluptate delectus
+            tempora.
           </p>
-  
+
           <div class="modal-content-image">
-            <img src="./assets/dashboard-modal.svg" alt="Foto modal">
+            <img src="./assets/dashboard-modal.svg" alt="Foto modal" />
           </div>
         </div>
       </div>
@@ -160,5 +164,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script src="./js/services.js"></script>
   </body>
 </html>
