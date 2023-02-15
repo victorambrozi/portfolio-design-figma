@@ -53,7 +53,7 @@
   height: 70vh;
   overflow-y: auto;
 }
-/* Scrollbar  Edge*/
+/* Scrollbar  Edge | Chrome | NOT FIREFOX*/
 .modal-content::-webkit-scrollbar {
   padding: 0 0.5rem;
   width: 0.5em;
