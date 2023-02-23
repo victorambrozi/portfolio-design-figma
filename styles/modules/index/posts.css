@@ -81,3 +81,13 @@
     }
 
 }
+
+@media(max-width: 768px) {
+    .post-cards {
+        flex-direction: column;
+    }
+
+    .post-primary-link {
+        padding: 0.8rem  0  0.8rem 1.6rem;
+    }
+}
