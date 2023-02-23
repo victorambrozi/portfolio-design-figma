@@ -66,3 +66,18 @@
     line-height: 26px;
 
 }
+
+/* Responsive */
+
+@media(max-width: 820px) {
+    .post-cards-item-title {
+        font-size: 2rem;
+        line-height: 30px;
+    }
+
+    .post-cards-item-subtitle{
+        font-size: 1.4rem;
+        line-height: 24px;
+    }
+
+}

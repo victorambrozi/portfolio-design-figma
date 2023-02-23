@@ -63,3 +63,20 @@
     line-height: 26px;
     color: #21243D;
 }
+
+/* Responsive */
+
+@media(max-width: 820px) {
+    .featured-works-title {
+        font-size: 3rem !important;
+    }
+
+    .featured-works-item-title {
+        font-size: 2.5rem;
+        line-height: 35px;
+    }
+
+    .featured-works-item-subtitle span {
+        font-size: 1.4rem;
+    }
+}

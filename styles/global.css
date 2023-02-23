@@ -1,9 +1,3 @@
-:root {
-    --text-primary: '#21243D';
-    --btn-primary: "#FF6464";
-    --bg-primary: "#FFFFFF";
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -17,6 +11,8 @@ html {
     margin: 0 auto;
     font-size: 62.10%;
     font-family: 'Heebo', sans-serif;
+
+    transition: all 300ms ease-in-out;
 }
 
 body {
