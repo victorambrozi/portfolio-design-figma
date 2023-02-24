@@ -18,5 +18,5 @@ export function controlMenu() {
     }
     
     menuContainer.addEventListener("click", handleClick);
-    navItems.addEventListener("mousemove", handleMouseMove); //
+    navItems.addEventListener("mousemove", handleMouseMove); 
 }
