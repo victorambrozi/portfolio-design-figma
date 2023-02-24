@@ -15,6 +15,7 @@
   display: none;
 }
 .modal-container {
+  margin: 0 1.6rem;
   padding: 3.2rem;
   max-width: 700px;
   background: #ffffff;
