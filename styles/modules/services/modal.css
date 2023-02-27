@@ -111,6 +111,7 @@
   color: #000;
 }
 
-.modal-content-image {
-    padding-right: 2rem;
+.modal-content-image img{
+    width: 100%;
+    padding: 2rem;
 }

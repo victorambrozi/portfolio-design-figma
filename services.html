@@ -46,7 +46,7 @@
         <h2 class="featured-works-title">Destaques</h2>
 
         <div class="featured-works-container">
-          <div class="featured-works-item">
+          <div class="featured-works-item" data-id="one">
             <div>
               <img src="./assets/dashboard.svg" alt="Foto do projeto" />
             </div>
@@ -67,7 +67,7 @@
             </div>
           </div>
 
-          <div class="featured-works-item">
+          <div class="featured-works-item" data-id="two">
             <div>
               <img src="./assets/retrato.svg" alt="Foto do projeto" />
             </div>
@@ -91,7 +91,7 @@
             </div>
           </div>
 
-          <div class="featured-works-item">
+          <div class="featured-works-item" data-id="three">
             <div>
               <img src="./assets/tipografia.svg" alt="Foto do projeto" />
             </div>
@@ -138,22 +138,22 @@
         <span data-modal="close" class="modal-btn-close"> X </span>
 
         <div class="modal-content">
-          <h2 class="modal-content-title">
+          <h2 class="modal-content-title" data-modal="title">
             Projetando painéis com usabilidade em mente
           </h2>
-          <div class="modal-content-subtitle">
+          <div class="modal-content-subtitle" data-modal="subtitle">
             <span>2020</span>
             <p>Dashboard, User Experience Design</p>
           </div>
-          <p class="modal-content-description">
+          <p class="modal-content-description" data-modal="description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
             ratione porro facere minus minima quaerat aperiam explicabo ex
             impedit dolorum iste, deserunt temporibus voluptate delectus
             tempora.
           </p>
 
-          <div class="modal-content-image">
-            <img src="./assets/dashboard-modal.svg" alt="Foto modal" />
+          <div class="modal-content-image" >
+            <img src="./assets/dashboard-modal.svg" alt="Foto modal" data-modal="image"/>
           </div>
         </div>
       </div>
@@ -168,5 +168,6 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <script src="./js/services.js"></script>
+  <script type="module" src="./js/script.js"></script>
   </body>
 </html>
