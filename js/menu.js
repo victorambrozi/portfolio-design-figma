@@ -2,17 +2,17 @@ export function controlMenu() {
   const menuContainer = document.querySelector(".menu-hamburguer-container");
   const menuHamburguer = document.querySelector(".menu-hamburguer");
   const navItems = document.querySelector(".header-navigation-items");
-  let toggle = false;
+  let isActive = false;
 
 
   function handleClick() {
     //adicionar classe active para ativar o menu responsivo
-    if(!toggle) {
+    if(!isActive) {
       menuHamburguer.classList.add("active");
       navItems.classList.add("active");
-      toggle = true;
+      isActive = true;
     } else {
-      toggle = false;
+      isActive = false;
       menuHamburguer.classList.remove("active");
       navItems.classList.remove("active");
     }
@@ -22,7 +22,7 @@ export function controlMenu() {
     outsideClick(() => {
       menuHamburguer.classList.remove("active");
       navItems.classList.remove("active");
-      toggle = false;
+      isActive = false;
     });
   }
 
