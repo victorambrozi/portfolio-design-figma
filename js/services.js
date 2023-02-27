@@ -47,7 +47,7 @@ function handleClick(event) {
             modalImage.src = content.image;
         }
     })
-    
+
     modal.classList.toggle("active");
 }
 
