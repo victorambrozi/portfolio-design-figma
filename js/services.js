@@ -27,6 +27,15 @@ const modalContent = {
         },
         image: "./assets/tipografia.svg"
     },
+
+    four: {
+        title: "Components",
+        subtitle: {
+            date: "2018",
+            category: "Components, Design"
+        },
+        image: "./assets/components.svg"
+    },
 }
 
 function handleClick(event) {
