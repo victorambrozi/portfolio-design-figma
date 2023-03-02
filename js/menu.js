@@ -46,10 +46,10 @@ export function controlMenu() {
   menuContainer.addEventListener("click", handleClick);
   
   // switch color of the items actives
-  navItems[0].classList.add("active");
+  // navItems[0].classList.add("active");
 
   function activeTab(event, index) {
-    event.preventDefault(); // prevent page reloading
+    // event.preventDefault(); // prevent page reloading
 
     navItems.forEach(item => {
       item.classList.remove("active");
